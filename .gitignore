@@ -1,0 +1,43 @@
+# .gitignore by jackon.me
+
+data
+*.log
+wxpy_puid.pkl
+wxpy.pkl
+db.sqlite3
+
+*.py[cod]
+.ipynb_checkpoints
+
+#vim
+*.swp
+.ropeproject/
+
+build
+
+# SVN
+.svn
+
+# C extensions
+*.so
+
+# Installer logs
+pip-log.txt
+*.egg-info/
+dist/
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+.cache/
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+.DS_Store
